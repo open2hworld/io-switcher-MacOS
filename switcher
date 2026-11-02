@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# I/O Switcher Runner for macOS & Shortcuts
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON_EXEC="$DIR/.venv/bin/python3"
+
+if [ ! -f "$PYTHON_EXEC" ]; then
+    # Fallback to system python3 if venv not found
+    PYTHON_EXEC="$(which python3)"
+fi
+
+exec "$PYTHON_EXEC" "$DIR/cli.py" "$@"
