@@ -2,8 +2,7 @@
 
 단종된 I/O 스위처(SWITCHER_M)를 공식 서버 인증 없이 macOS에서 블루투스(BLE)로 직접 제어하고, **macOS 단축어(Apple Shortcuts), 키보드 단축키(Global Hotkey), Siri 음성 제어 및 아이폰(iOS, Tailscale VPN) 원격 제어**와 연동할 수 있도록 제작된 프로그램입니다.
 
-참고 소스 : https://github.com/david419kr/io-switcher-local
-(* 감사합니다!)
+참고 소스 : https://github.com/david419kr/io-switcher-local (* 감사합니다!)
 
 ---
 
